@@ -3341,6 +3341,8 @@ var _react2 = _interopRequireDefault(_react);
 
 var _photoSphereViewerSa = require('photo-sphere-viewer-sa');
 
+var _photoSphereViewerSa2 = _interopRequireDefault(_photoSphereViewerSa);
+
 var _uevent = require('uevent');
 
 var _uevent2 = _interopRequireDefault(_uevent);
@@ -3356,9 +3358,7 @@ var ReactSphereViewer = (function (_Component) {
 
 	_createClass(ReactSphereViewer, [{
 		key: 'componentWillMount',
-		value: function componentWillMount() {
-			console.log(_photoSphereViewerSa.PhotoSphereViewer);
-		}
+		value: function componentWillMount() {}
 	}, {
 		key: 'componentDidMount',
 		value: function componentDidMount() {
@@ -3366,7 +3366,7 @@ var ReactSphereViewer = (function (_Component) {
 			var src = _props.src;
 			var options = _props.options;
 
-			this.psv = new _photoSphereViewerSa.PhotoSphereViewer(_extends({}, options, { panorama: src }));
+			this.psv = new _photoSphereViewerSa2['default'](_extends({}, options, { panorama: src }));
 		}
 	}, {
 		key: 'componentWillUnmount',
