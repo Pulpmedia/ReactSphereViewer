@@ -1,10 +1,9 @@
 import React, {Component,PropTypes} from 'react'
-import {PhotoSphereViewer} from 'photo-sphere-viewer-sa'
+import PhotoSphereViewer from 'photo-sphere-viewer-sa'
 import uEvent from 'uevent'
 
 class ReactSphereViewer extends Component{
 	componentWillMount(){
-		console.log(PhotoSphereViewer);
 	}
 	componentDidMount(){
 		const {src,options} = this.props;
