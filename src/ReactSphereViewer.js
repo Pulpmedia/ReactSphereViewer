@@ -21,7 +21,6 @@ class ReactSphereViewer extends Component{
 };
 ReactSphereViewer.defaultProps = {
   options: {
-		navbar: false,
 		gyroscope: false,
 		loading_text: 'loading',
 		container: 'photosphere',
