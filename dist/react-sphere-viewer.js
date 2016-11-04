@@ -3389,7 +3389,6 @@ var ReactSphereViewer = (function (_Component) {
 ;
 ReactSphereViewer.defaultProps = {
 	options: {
-		navbar: false,
 		gyroscope: false,
 		loading_text: 'loading',
 		container: 'photosphere',

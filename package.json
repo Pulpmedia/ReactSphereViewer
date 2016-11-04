@@ -1,6 +1,6 @@
 {
   "name": "react-sphere-viewer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Sphere Viewer",
   "main": "lib/ReactSphereViewer.js",
   "author": "Alexandre Kilian",
